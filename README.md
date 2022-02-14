@@ -1,30 +1,27 @@
 # jest-demos
 
-This repertory is a collection of simple demos of Jest for my blog post [jest-tutorial](https://blog.whezh.com/jest-tutorial/).
+This is an example project for Jest tests written in JavaScript and running on Node.js.
+Run tests by simply running the `npm test` command from the project root directory.
 
-## How to use
+## Running locally
 
-First, clone the repo.
-
-```bash
-$ git clone https://github.com/hezhii/jest-demos.git
-```
-
-Then, install the dependencies.
+Run the following commands to setup the repository locally.
 
 ```bash
-$ cd jest-demos
-$ npm i
+    npm ci
+    npm test
 ```
 
-Run all the tests.
+## Integrating with TAS
 
-```bash
-$ npm test
-```
+- Fork this repository.
 
-You can also run a single test by `npm test path/name.test.js`. For example:
+- Click on Login with GitHub on [TAS](https://tas.lambdatest.com/login/)
 
-```bash
-$ npm test async/fetch.test.js
-```
+- Select your desired organization.
+  
+- Search for the repository and Click on import.
+  
+- Click on Go To Project and Select the desired post merge strategy.
+  
+- Push a new commit in the remote repository to trigger a new build on TAS.
