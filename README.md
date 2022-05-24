@@ -24,4 +24,4 @@ Run the following commands to setup the repository locally.
   
 - Click on Go To Project and Select the desired post merge strategy.
   
-- Push a new commit in the remote repository to trigger a new build on TAS.
+- Push a new commit in the remote repository to trigger a new build on TAS
