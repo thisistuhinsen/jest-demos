@@ -5,7 +5,7 @@ Run tests by simply running the `npm test` command from the project root directo
 
 ## Running locally
 
-Run the following commands to setup the repository locally.
+Run the following commands to setup the repository locally
 
 ```bash
     npm ci
